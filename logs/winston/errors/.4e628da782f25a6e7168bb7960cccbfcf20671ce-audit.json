@@ -39,6 +39,31 @@
             "date": 1692533435814,
             "name": "C:\\apollo\\final-project\\university-management-core-service\\logs\\winston\\errors\\phu-2023-20-08-18-error.log",
             "hash": "2e3acc2763e6c7fd8e94d31c7e8e74ce080195a327ebca71692704e0a285d93c"
+        },
+        {
+            "date": 1692540662757,
+            "name": "C:\\apollo\\final-project\\university-management-core-service\\logs\\winston\\errors\\phu-2023-20-08-20-error.log",
+            "hash": "0373facf9761f2cf03cc55eb7e1f642ee722a030672633b0af14f20f7b7177e8"
+        },
+        {
+            "date": 1692544407312,
+            "name": "C:\\apollo\\final-project\\university-management-core-service\\logs\\winston\\errors\\phu-2023-20-08-21-error.log",
+            "hash": "05798842b9d2244638fc9a0405c03eeb9486b5cdf9fd6a414b3464afdf0c3e7e"
+        },
+        {
+            "date": 1692548349378,
+            "name": "C:\\apollo\\final-project\\university-management-core-service\\logs\\winston\\errors\\phu-2023-20-08-22-error.log",
+            "hash": "f23433455746f38dd5c10325655df8c3074b0a5a3b2fb2e54900ea0eeef1753a"
+        },
+        {
+            "date": 1692551625703,
+            "name": "C:\\apollo\\final-project\\university-management-core-service\\logs\\winston\\errors\\phu-2023-20-08-23-error.log",
+            "hash": "5feaa94271e8549585ec7f8804b7994439e7a3beb90cb868a8cc1d8da0cd7e0c"
+        },
+        {
+            "date": 1692574770266,
+            "name": "C:\\apollo\\final-project\\university-management-core-service\\logs\\winston\\errors\\phu-2023-21-08-05-error.log",
+            "hash": "f8de04f232451366a69f6c85a94255ab17d1eb839947b8d3ec3433532eb58b3d"
         }
     ],
     "hashType": "sha256"
