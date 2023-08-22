@@ -7,6 +7,8 @@ const router = express.Router();
 
 router.get('/', StudentController.getAllFromDB);
 
+router.get('/:id', StudentController.getByIdFromDB);
+
 router.post(
   '/',
   validateRequest(StudentValidation.create),

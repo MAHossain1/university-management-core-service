@@ -2,8 +2,8 @@ import { z } from 'zod';
 
 const create = z.object({
   body: z.object({
-    facultyId: z.string({
-      required_error: 'Faculty id is required',
+    studentId: z.string({
+      required_error: 'Student id is required',
     }),
     firstName: z.string({
       required_error: 'First name is required',
@@ -29,8 +29,8 @@ const create = z.object({
     bloodGroup: z.string({
       required_error: 'Blood group is required',
     }),
-    designation: z.string({
-      required_error: 'Designation is required',
+    academicSemesterId: z.string({
+      required_error: 'Academic semester is required',
     }),
     academicDepartmentId: z.string({
       required_error: 'Academic department is required',
@@ -43,7 +43,7 @@ const create = z.object({
 
 const update = z.object({
   body: z.object({
-    facultyId: z.string().optional(),
+    studentId: z.string().optional(),
     firstName: z.string().optional(),
     lastName: z.string().optional(),
     middleName: z.string().optional(),
@@ -52,22 +52,13 @@ const update = z.object({
     contactNo: z.string().optional(),
     gender: z.string().optional(),
     bloodGroup: z.string().optional(),
-    designation: z.string().optional(),
+    academicSemesterId: z.string().optional(),
     academicDepartmentId: z.string().optional(),
     academicFacultyId: z.string().optional(),
   }),
 });
 
-const assignOrRemoveCourses = z.object({
-  body: z.object({
-    courses: z.array(z.string(), {
-      required_error: 'Courses are required',
-    }),
-  }),
-});
-
-export const FacultyValidation = {
+export const StudentValidation = {
   create,
   update,
-  assignOrRemoveCourses,
 };

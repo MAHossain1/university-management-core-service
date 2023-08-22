@@ -99,6 +99,16 @@
             "date": 1692615636546,
             "name": "C:\\apollo\\final-project\\university-management-core-service\\logs\\winston\\successes\\phu-2023-21-08-17-success.log",
             "hash": "361483247563c6a058bdfb5c54c2b2be51ce86cd37ca3df4b8775c87d397974d"
+        },
+        {
+            "date": 1692665214102,
+            "name": "C:\\apollo\\final-project\\university-management-core-service\\logs\\winston\\successes\\phu-2023-22-08-06-success.log",
+            "hash": "64c551df12dd95f68fd20266e38bb122388ac2efd9e1fa2d6dbe0c1a8bec7e63"
+        },
+        {
+            "date": 1692666029921,
+            "name": "C:\\apollo\\final-project\\university-management-core-service\\logs\\winston\\successes\\phu-2023-22-08-07-success.log",
+            "hash": "09bb924318fe5fa7fd873ea104a03a731068a6fecae3390ba553319f16716216"
         }
     ],
     "hashType": "sha256"
