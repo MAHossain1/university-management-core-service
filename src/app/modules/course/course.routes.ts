@@ -5,6 +5,9 @@ const router = express.Router();
 
 router.patch('/:id', CourseController.updateOneInDB);
 
+router.post('/:id/assign-faculties', CourseController.assignFaculties);
+router.delete('/:id/remove-faculties', CourseController.removeFaculties);
+
 router.get('/', CourseController.getAllData);
 
 router.post('/', CourseController.insertIntoDB);
