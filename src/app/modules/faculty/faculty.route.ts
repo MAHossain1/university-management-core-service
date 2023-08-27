@@ -22,8 +22,17 @@ router.delete(
   FacultyController.deleteFromDB
 );
 
-router.post('/:id/assign-courses', FacultyController.assignCourses);
-router.delete('/:id/remove-courses', FacultyController.removeCourses);
+router.post(
+  '/:id/assign-courses',
+  validateRequest(FacultyValidation.assignOrRemoveCourses),
+  FacultyController.assignCourses
+);
+
+router.delete(
+  '/:id/remove-courses',
+  validateRequest(FacultyValidation.assignOrRemoveCourses),
+  FacultyController.removeCourses
+);
 
 router.get('/', FacultyController.getAllFromDB);
 
