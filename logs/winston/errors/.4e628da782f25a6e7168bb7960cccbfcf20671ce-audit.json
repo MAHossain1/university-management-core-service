@@ -254,6 +254,16 @@
             "date": 1693108959701,
             "name": "C:\\apollo\\final-project\\university-management-core-service\\logs\\winston\\errors\\phu-2023-27-08-10-error.log",
             "hash": "7e9e19cad7295ad462cb4ca2c4f7775fc800897f8a2a93bbfeb14f98014ef051"
+        },
+        {
+            "date": 1693354175256,
+            "name": "C:\\apollo\\final-project\\university-management-core-service\\logs\\winston\\errors\\phu-2023-30-08-06-error.log",
+            "hash": "7a00451d7947fbc7709211c03f05487354ed7620c9473a0324019fecd3c8dfe7"
+        },
+        {
+            "date": 1693357223604,
+            "name": "C:\\apollo\\final-project\\university-management-core-service\\logs\\winston\\errors\\phu-2023-30-08-07-error.log",
+            "hash": "1b69b6d808c344c18f38dfdc5653177b58b98428d8fe3773ad86b5abf0a3e345"
         }
     ],
     "hashType": "sha256"
