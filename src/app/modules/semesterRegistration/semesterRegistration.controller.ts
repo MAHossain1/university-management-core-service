@@ -67,16 +67,16 @@ const updateOneInDB = catchAsync(async (req: Request, res: Response) => {
 
 const startMyRegistration = catchAsync(async (req: Request, res: Response) => {
   const user = (req as any).user;
-  console.log(user);
-  // console.log(req);
-  // const { id } = req.params;
-  // const result = await SemesterRegistrationService.updateOneInDB(id, req.body);
-  // sendResponse(res, {
-  //   statusCode: httpStatus.OK,
-  //   success: true,
-  //   message: 'SemesterRegistration updated successfully',
-  //   data: result,
-  // });
+
+  const result = await SemesterRegistrationService.startMyRegistration(
+    user.userId
+  );
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Student SemesterRegistration Started successfully',
+    data: result,
+  });
 });
 
 export const SemesterRegistrationController = {

@@ -13,7 +13,7 @@ router.get('/:id', SemesterRegistrationController.getByIdFromDB);
 
 router.post(
   '/start-registration',
-  auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+  auth(ENUM_USER_ROLE.STUDENT),
   SemesterRegistrationController.startMyRegistration
 );
 
