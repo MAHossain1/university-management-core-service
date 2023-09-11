@@ -127,7 +127,7 @@ const confirmMyRegistration = catchAsync(
 
 const getMyRegistration = catchAsync(async (req: Request, res: Response) => {
   const user = (req as any).user;
-  console.log(user);
+  // console.log(user);
   const result = await SemesterRegistrationService.getMyRegistration(
     user.userId
   );
@@ -135,6 +135,17 @@ const getMyRegistration = catchAsync(async (req: Request, res: Response) => {
     statusCode: httpStatus.OK,
     success: true,
     message: 'Gotten MY Registration done',
+    data: result,
+  });
+});
+
+const startNewSemester = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const result = await SemesterRegistrationService.startNewSemester(id);
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Semester Started successfully',
     data: result,
   });
 });
@@ -150,4 +161,5 @@ export const SemesterRegistrationController = {
   withDrawFromCourse,
   confirmMyRegistration,
   getMyRegistration,
+  startNewSemester,
 };
